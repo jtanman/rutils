@@ -1,0 +1,19 @@
+Package: rutils
+Title: R Utility Functions for Pocket Gems
+Version: 1.0.0
+Authors@R: person("James", "Tan", email = "jtanman@gmail.com", role = c("aut", "cre"))
+Description: This package includes several utility functions for R including
+    AUC/PR plots, automated binning of variables, testing the delta effect of
+    generic functions, and multiple ggplots.
+Depends: R (>= 3.3.3)
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: ggplot2,
+    AUC,
+    ROCR,
+    PRROC,
+    graphics,
+    methods,
+    utils
+RoxygenNote: 6.0.1
